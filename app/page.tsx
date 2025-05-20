@@ -10,7 +10,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
       <section className="mb-12">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4">Grace Community Church</h1>
+          <h1 className="text-4xl font-bold mb-4">United Evangelical Church</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Welcome to our online home. Join us in worship, study, and community.
           </p>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Upcoming Events</h2>
+        <h2 className="text-2xl font-bold mb-6">Weekly Activities</h2>
         <UpcomingEvents />
       </section>
     </div>
