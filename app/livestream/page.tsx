@@ -47,7 +47,7 @@ export default function LivestreamPage() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-xl font-bold">Sunday Worship Service</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Pastor John Smith</p>
+                    <p className="text-gray-600 dark:text-gray-400">Rev Justice Amedu</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <CalendarIcon className="h-5 w-5 text-gray-500" />
