@@ -65,7 +65,7 @@ export default function LivestreamPlayer() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-white font-medium">Sunday Worship Service</h3>
-                  <p className="text-gray-300 text-sm">Pastor John Smith</p>
+                  <p className="text-gray-300 text-sm">Rev. Justice Amedu</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Button variant="ghost" size="icon" className="text-white hover:bg-white/20" onClick={toggleMute}>
