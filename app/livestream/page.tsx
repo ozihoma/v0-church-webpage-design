@@ -12,7 +12,7 @@ export default function LivestreamPage() {
         <Tabs defaultValue="live" className="mb-8">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="live">Live Now</TabsTrigger>
-            <TabsTrigger value="upcoming">Upcoming Services</TabsTrigger>
+            <TabsTrigger value="upcoming">Previous Services</TabsTrigger>
           </TabsList>
           <TabsContent value="live" className="pt-6">
             <LivestreamPlayer />
@@ -20,24 +20,23 @@ export default function LivestreamPage() {
             <div className="mt-6">
               <h2 className="text-2xl font-bold mb-4">Sunday Worship Service</h2>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                Join us for our weekly worship service led by Pastor John Smith. Today's sermon focuses on finding peace
-                in troubled times.
+                Join us for our weekly worship service led by our enlightened minister, Rev Justice Amego.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <div className="flex items-center gap-2">
                   <CalendarIcon className="h-5 w-5 text-gray-500" />
-                  <span>May 26, 2025</span>
+                  <span>Sunday mornings</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="h-5 w-5 text-gray-500" />
-                  <span>9:00 AM - 10:30 AM</span>
+                  <span>9:00 AM - 11:30 AM</span>
                 </div>
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <Button>Download Sermon Notes</Button>
-                <Button variant="outline">Share</Button>
+                <Button>Enquire for recorded Sermons</Button>
+                <Button variant="outline">WhatsApp</Button>
               </div>
             </div>
           </TabsContent>
@@ -57,17 +56,17 @@ export default function LivestreamPage() {
                   </div>
                 </div>
                 <p className="mb-4">
-                  Join us for our weekly worship service. This week's sermon will focus on "Faith in Action" from the
+                  Previous week sermon's focus was on on "Faith in Action", from the
                   Book of James.
                 </p>
-                <Button variant="outline">Set Reminder</Button>
+                <Button variant="outline">Stream Service</Button>
               </div>
 
               <div className="border rounded-lg p-6">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-xl font-bold">Midweek Prayer Service</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Pastor Sarah Johnson</p>
+                    <p className="text-gray-600 dark:text-gray-400">Rev Justice Amego</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <CalendarIcon className="h-5 w-5 text-gray-500" />
@@ -79,14 +78,14 @@ export default function LivestreamPage() {
                 <p className="mb-4">
                   A time of prayer, worship, and fellowship in the middle of the week to refresh your spirit.
                 </p>
-                <Button variant="outline">Set Reminder</Button>
+                <Button variant="outline">Stream Service</Button>
               </div>
 
               <div className="border rounded-lg p-6">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-xl font-bold">Special Guest Speaker</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Dr. Michael Roberts</p>
+                    <p className="text-gray-600 dark:text-gray-400">Rev. AU Azubuike</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <CalendarIcon className="h-5 w-5 text-gray-500" />
@@ -96,10 +95,10 @@ export default function LivestreamPage() {
                   </div>
                 </div>
                 <p className="mb-4">
-                  We're excited to welcome Dr. Michael Roberts, author of "Living Faith Daily," for a special message on
-                  spiritual growth.
+                  We're excited to welcome Rev. AU Azubuike, author of "Earths final hours: The prophecies of the End Time" for a special message on
+                  Abounding Grace.
                 </p>
-                <Button variant="outline">Set Reminder</Button>
+                <Button variant="outline">Stream Service</Button>
               </div>
             </div>
           </TabsContent>
