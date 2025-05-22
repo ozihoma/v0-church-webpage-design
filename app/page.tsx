@@ -12,7 +12,7 @@ export default function Home() {
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">United Evangelical Church</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Welcome to our online home. Join us in worship, study, and community.
+            Welcome to our online home. Join us in worship, study, and communion.
           </p>
           <div className="flex justify-center gap-4 mt-6">
             <Button asChild>
@@ -27,7 +27,7 @@ export default function Home() {
         <Card className="mb-8">
           <CardHeader>
             <CardTitle>Sunday Service Livestream</CardTitle>
-            <CardDescription>Join us for our weekly worship service</CardDescription>
+            <CardDescription>Join us for our Sunday worship service</CardDescription>
           </CardHeader>
           <CardContent>
             <LivestreamPlayer />
@@ -71,23 +71,6 @@ export default function Home() {
           <CardFooter>
             <Button variant="outline" asChild className="w-full">
               <Link href="/community">Join Chat</Link>
-            </Button>
-          </CardFooter>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <CalendarIcon className="h-5 w-5" />
-              Events
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>Stay updated with upcoming services, prayer meetings, and community gatherings.</p>
-          </CardContent>
-          <CardFooter>
-            <Button variant="outline" asChild className="w-full">
-              <Link href="/events">View Calendar</Link>
             </Button>
           </CardFooter>
         </Card>
