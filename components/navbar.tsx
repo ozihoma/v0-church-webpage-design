@@ -83,9 +83,6 @@ export default function Navbar() {
                 <Link href="/community" className="hover:text-primary">
                   Community
                 </Link>
-                <Link href="/events" className="hover:text-primary">
-                  Events
-                </Link>
                 <Link href="/about" className="hover:text-primary">
                   About
                 </Link>
