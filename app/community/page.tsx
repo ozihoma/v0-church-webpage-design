@@ -290,7 +290,7 @@ export default function CommunityPage() {
             <h2 className="text-2xl font-bold">Community Groups</h2>
             <Button>
               <PlusCircle className="h-4 w-4 mr-2" />
-              Create Group
+              WhatsApp Groups
             </Button>
           </div>
 
